@@ -1,0 +1,19 @@
+.app {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: space-between; /* Space between top and bottom */
+    height: 100vh; /* Full height of the viewport */
+    padding: 20px; /* Optional padding for aesthetics */
+  }
+  
+  .counter {
+    margin: auto 0 0 0; /* Align counter at the top */
+    font-size: 24px; /* Adjust font size for better visibility */
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+  }
+  
